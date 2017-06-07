@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle wordc",
+        "command": "wordc:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "wordc",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "wordc:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
